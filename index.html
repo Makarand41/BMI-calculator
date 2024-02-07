@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>DietGuru</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Ubuntu:ital,wght@0,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v6.1.1/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+  <section id="Title">
+    <div class="title-container">
+        <nav class="navbar navbar-expand-lg my-nav">
+          <div class="container-fluid ">
+            <a class="navbar-brand" href="#">DietGuru</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link myLink" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link myLink" href="#Meal-Planner1">Weight Loss</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link myLink" href="#Diet" tabindex="-1" aria-disabled="true">Diet</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link myLink" href="#Meditation" tabindex="-1" aria-disabled="true">Meditation </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle myLink" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    DietPlans
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="UnderWeight.html" target="_blank">Under Weight</a></li>
+                    <li><a class="dropdown-item" href="Normal.html" target="_blank">Normal</a></li>
+                    <li><a class="dropdown-item" href="OverWeight.html" target="_blank">Overweight</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+    </div>
+      <div class="row title-page">
+        <div class="col-lg-6 title-part1">
+            <h1 class="heading col-sm-12">Live Healthy Life With Indian Ayurveda And DietGuru.</h1>
+            <img style="margin-top:10px ;" class="title-img" src="FirstImg.jpg" alt="">
+        </div>
+        <div class="col-lg-6 title-part2">
+          <form class="ms-3">
+            <div class="mb-4">
+              <label for="weight" class="form-label" >Enter Weight</label>
+              <input  type="text" class="form-control form-width" id="weight" aria-describedby="emailHelp" placeholder="Weight in kg">
+              <div id="emailHelp" class="form-text">Prefer SI Units</div>
+            </div>
+
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label ">Enter Height</label>
+              <input type="text" class="form-control form-width" id="height" placeholder="Height in cm">
+            </div>
+
+            <div class="mb-4">
+              <label for="exampleInputPassword1" class="form-label ">Enter Age</label>
+              <input type="text" class="form-control form-width" id="Age" placeholder="Age 0-120">
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                
+                <button class="btn-lg btn-outline-dark dwn-btn" type="button" id="btn">Calculate BMI</button><br><span id="height_error"></span> <br><span id="weight_error"></span>    
+              </div>
+              <div class="col-lg-6 me-4">
+                <div class="outPut col-lg-4 col-md-3 col-sm-3">
+                  <p id="output"></p>
+                  <p id="outputcalri"></p>
+                </div>
+                
+                <!-- <div class="outPut col-lg-4 col-md-3 col-sm-3">
+                  
+                </div> -->
+              </div>
+            </div>
+            
+            
+          </form>
+          
+        </div>
+      
+      </section>
+      <section id="Meal-Planner">
+        <div class="container-fluid " id="Meal-Planner1">
+          <h1 class="Meal-Planner-heading">WEIGHT LOSS</h1>
+          <h2>Healthy Diet Plan for Weight Loss</h2>
+          <p class="Meal-Planner-para"> While creating a diet chart, it is important to make sure it is balanced and ensures that you receive all the required nutrients. Thus, include the following nutrients in your diet plan:</p>
+          <h2>1. Carbohydrates Diet Plan</h2>
+          <p class="Meal-Planner-para">Carbs are the body’s main source of energy and should make up half of your daily calorie requirement. However, it’s important to choose the right type of carbs. Simple carbs, such as bread, biscuit, white rice and wheat flour, contain too much sugar and are bad for you.
+            Instead, opt for complex carbs that are high in fiber and packed with nutrients as compared to simple carbs. This is because Fiber-rich complex carbs are harder to digest, leaving you feeling full for longer, and are therefore the best option for weight control.
+            Brown rice, millets such as ragi and oats are all good complex carb choices.
+            </p>
+            <div class="float-imag-item">
+              <img class="WeightLossFood-item" src="weightLossFood2.jpg" alt="WeightLossFood-item">
+              <h2>2. Proteins Diet Plan</h2>
+              <p class="Meal-Planner-para">Most Indians fail to meet their daily protein requirement. This is troublesome, as proteins are essential to help the body build and repair tissue, muscles, cartilage and skin, as well as pump blood. Hence. a high protein diet can also help you lose weight, as it helps build muscle – which burns more calories than fat.
+                For instance, about 30% of your diet should consist of protein in the form of whole dals, paneer, chana, milk, leafy greens, eggs, white meat or sprouts. Having one helping of protein with every meal is essential.
+                </p>
+                <h2>3. Vitamins and Minerals Diet Plan</h2>
+                <p class="Meal-Planner-para">Vitamin A, E, B12, D, calcium and iron are essential for the body as they support metabolism, nerve and muscle function, bone maintenance, and cell production. Since, these are primarily derived from plants, meat and fish, minerals can also be found in nuts, oilseeds, fruits and green leafy vegetables.Experts and nutritionists recommend consuming 100 grams of greens and 100 grams of fruits accordingly</p>
+            </div>
+            
+          </div>
+      </section>
+
+
+      <section id="Meditation">
+        <h1 class="Meal-Planner-heading">Meditation </h1>
+        <p class="Meal-Planner-para">Meditation can help you lose weight when complemented with the proper diet and exercise. Losing weight is all about how many calories you consume and how many you burn out. Meditation works on your mind. So, what you attain is a sense of control over sensory pleasure. Once you have achieved that self-control, you crave less. As a result, it limits your caloric intake by decreasing the frequency of binge eating and emotional eating. At the same time, meditation improves the clarity of thought. It means that you are more likely to be conscious of your wellbeing. So, meditation indirectly helps you to eat as much as you need. It allows you to attain portion control as a way of life naturally. Hence, it helps lose excess weight.</p>
+        <h2>How to Meditate?</h2>
+        <table>
+          <ul class="Meal-Planner-para">
+            <li>1.	Take a long, deep breath. Hold it for 8-10 seconds.</li>
+            <li>2.	Exhale slowly and thoroughly.</li>
+            <li>3.	Repeat the process.</li>
+            <li>4.	While the air goes in through your nostrils, notice the changes. Your lungs fill with air, and your chest and belly move out.</li>
+            <li>5.	If your mind wanders, acknowledge it. As soon as you realise that the mind is wandering, bring your attention back to your breath.</li>
+            <li>6.	Do not tell yourself that you cannot meditate. When thoughts come to you, please accept them as a normal phenomenon. Be gentle with yourself, and do not criticise yourself. </li>
+            <li>7.	Meditation leads to self-love. Along the way, you learn to read your emotions. You recognise what is good for you and what is excess. Thus, meditation leads to the control of desires and ultimately becomes a medium for weight loss.  </li>
+          </ul>
+        </table>
+      </section>
+
+
+      <section id="Diet">
+        <h1 class="Meal-Planner-heading">Diet</h1>
+        <h2>High-Calorie Food</h2>
+        <p class="Meal-Planner-para">To gain weight healthily, eat foods like banana, avocados, full-fat milk., that are high in calories and full of nutrients.
+          A calorie-rich diet is necessary to gain the right amount of weight according to your body type. Therefore, besides high-calorie food, one needs to know the right high-calorie food to be consumed.
+          Some nutritious high-calorie food that you may include in your diet are homemade granola bars, Tofu, Avocados, Chickpeas, etc. 
+          </p>
+        <div class="float-imag-item">
+          <img class="DietImg" src="Diet.jpg" alt="">
+          <h2>Consume Healthy Carbs</h2>
+        <p class="Meal-Planner-para">A popular misconception is that carbs make you overweight. The truth is weight gain depends on the number of calories you intake. So, you can add healthy carbs like bananas, potatoes, sweet potatoes, red or brown rice, whole grains, and fruits will help you gain weight healthily and safely.Try to include good quality carbs in all your meals in some form or the other. A balanced meal is essential to receive nutrients that the body needs to function properly. </p>
+        </div>
+        <h2>Protein Rich Food</h2>
+        <p class="Meal-Planner-para">Proteins are what make up our muscles. The absence of the recommended protein intake can make your efforts to gain weight futile.
+          Lack of protein in your diet can turn calories directly into fat and interfere in maintaining a healthy weight. Take at least 1.5-2 grams of protein per kg of your body weight to gain weight and build lean muscle mass.
+          Chicken breast, turkey, nuts, legumes, beans, fish, eggs, milk are excellent sources of lean proteins
+          </p>
+      </section>
+
+      <footer id="footer">
+        <div class="container-fluid">
+            <a href=""><img class="footer-img" src="twitter.png" alt=""></a>
+            <a href=""><img class="footer-img" src="facebook-app-symbol.png" alt=""></a>
+            <a href=""><img class="footer-img" src="instagram.png" alt=""></a>
+            <a href=""><img class="footer-img" src="email.png" alt=""></a>
+            <p>DietGuru</p>
+        </div>
+
+    </footer>
+</body>
+</html>

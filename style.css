@@ -1,0 +1,135 @@
+.row{
+    width: 100.7%;
+}
+.title-container{
+    padding: 2% 5%;
+    background-color: #f2f1ec;
+}
+.my-nav{
+    height: 8rem;
+    background-color: #f2f1ec;
+}
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: #365b6d;
+}
+.navbar-brand:hover{
+    color: #365b6d;
+}
+.myLink{
+    color: #3f687c;
+    font-size: 1.3rem;
+    margin: 5px;
+}
+.myLink:hover{
+    color: #293b42;
+    font-weight: bold;
+}
+.myLink:active {
+    color: #293b42;
+}
+
+.title-page{
+    padding: 5%;
+    background-color: #365b6d;
+}
+.heading{
+    font-size: 3rem;
+    color: rgb(239, 241, 253);
+}
+.form-width{
+    width: 50%;
+}
+.dwn-btn{
+    background-color: #29363c;
+    font-family: 'Roboto', sans-serif;
+    width: 52%;
+    color: rgb(204, 197, 197);
+}
+.dwn-btn:hover{
+    background-color: black;
+}
+
+.nav-link:visited{
+    color: #29363c;
+}
+.form-label{
+    color: rgb(239, 241, 253);
+}
+.title-img{
+    width: 85%;
+    border-radius: 10px;
+}
+.title-part2{
+    padding-left: 10%;
+}
+#features{
+    margin-top: 7%;
+    text-align: center;
+    width: 90%;
+}
+.outPut{
+    height: 70px;
+    width: 90%;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ededed;
+}
+
+#Meal-Planner{
+    padding: 2% 5%;
+}
+.Meal-Planner-heading{
+    font-size: 3rem;
+    margin: 3% 0%;
+}
+.Meal-Planner-para{
+    font-size: 1.3rem;
+    margin: 2% 0;
+}
+.WeightLossFood-item{
+    width: 49%;
+    border-radius: 5px;
+    margin-right: 3%;
+    float: right;
+}
+.float-imag-item{
+    /* margin: 3%; */
+}
+
+#Meditation{
+    padding: 2% 5%;
+    background-color: #365b6d;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#footer{
+    text-align: center;
+    padding:6% 0 5% 0;
+    background-color: #365b6d;
+    color: white;
+}
+.footer-img{
+    width: 30px;
+    margin: 10px;
+}
+.footer-img:hover{
+    width: 2%;
+    margin: 10px;
+    background-color: #e2ecf5;
+    border-radius: 10px;
+}
+#Diet{
+    padding: 2% 5%;
+}
+.DietImg{
+    width: 49%;
+    border-radius: 5px;
+    margin-right: 3%;
+    float: left;
+}
+
